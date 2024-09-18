@@ -1,0 +1,7 @@
+version: "3.2"
+services:
+  rabbitmq:
+    image: hivemq/hivemq4
+    container_name: 'hivemq'
+    network_mode: host
+    restart: always

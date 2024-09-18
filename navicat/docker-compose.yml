@@ -1,0 +1,10 @@
+version: '3'
+services:
+  navicat_ser:
+    image: navicat/navicatmonitor:3.0.1
+    container_name: navicat_ser
+    volumes:
+      - ./navicat_monitor_var_data:/opt/navicatmonitor/x86_64-linux-gnu/var
+      - ./navicat_monitor_certs_data:/opt/navicatmonitor/x86_64-linux-gnu/certs navicat/navicatmonitor:3.0.1
+    network_mode: host
+

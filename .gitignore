@@ -1,0 +1,5 @@
+*/venv/
+venv/*
+/.idea/*
+/mqtt/.idea/*
+/mysql/data_db/*
